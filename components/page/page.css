@@ -1,0 +1,41 @@
+.page {
+    background: url(/assets/pictures/background/4400px.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.page__container {
+    margin: 30px 15% 20px 15%;
+    padding: 30px;
+    border: 1px solid black;
+    min-height: 600px;
+}
+
+.page__container-about-me {
+    background-color: var(--turquoise);
+}
+
+.page__container-skills {
+    background-color: var(--lightPink);
+}
+
+.page__container-hobbies {
+    background-color: var(--pinkNormal);
+}
+
+.page__container-media {
+    background-color: var(--pinkDark);
+    min-height: 120px;
+}
+
+@media screen and (max-width: 900px) {
+    .page__container {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+}

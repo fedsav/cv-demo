@@ -1,0 +1,17 @@
+@import 'assets/css/normalize.css';
+@import 'components/typography/fonts.css';
+@import 'components/page/page.css';
+@import 'components/aboutMe/aboutme.css';
+@import 'components/skills/skills.css';
+@import 'components/hobbies/hobbies.css';
+@import 'components/media/media.css';
+@import 'components/typography/typography.css';
+
+:root {
+    --turquoise: #E7FDF7;
+    --lightPink: #E1C6DB;
+    --pinkCard: #865569;
+    --orange: #E5BF9C;
+    --pinkNormal: #D7ACCF;
+    --pinkDark: #865569;  
+}
