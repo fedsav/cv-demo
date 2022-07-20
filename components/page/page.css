@@ -1,9 +1,12 @@
-.page {
-    background: url(/assets/pictures/background/4400px.jpg);
+html {
+    background: url(/../../assets/pictures/background/4400px.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.page {
     display: flex;
     flex-direction: column;
 }
@@ -12,11 +15,10 @@
     margin: 30px 15% 20px 15%;
     padding: 30px;
     border: 1px solid black;
-    min-height: 600px;
 }
 
 .page__container-about-me {
-    background-color: var(--turquoise);
+    background-color: var(--green);
 }
 
 .page__container-skills {
@@ -24,18 +26,18 @@
 }
 
 .page__container-hobbies {
-    background-color: var(--pinkNormal);
+    background-color: var(--light-blue);
 }
 
 .page__container-media {
-    background-color: var(--pinkDark);
-    min-height: 120px;
+    background-color: var(--dark-orange);
 }
 
 @media screen and (max-width: 900px) {
     .page__container {
-        padding: 10px;
+        padding: 5px;
         display: flex;
         flex-direction: column;
+        /* min-height: 400px; */
     }
 }

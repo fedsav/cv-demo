@@ -6,12 +6,14 @@
 @import 'components/hobbies/hobbies.css';
 @import 'components/media/media.css';
 @import 'components/typography/typography.css';
+@import 'assets/icons/icons.svg';
 
 :root {
-    --turquoise: #E7FDF7;
-    --lightPink: #E1C6DB;
+    --green: rgba(218, 248, 86, 0.8);;
+    --lightPink: rgba(225, 198, 219, 0.8);
     --pinkCard: #865569;
     --orange: #E5BF9C;
-    --pinkNormal: #D7ACCF;
-    --pinkDark: #865569;  
+    --light-blue: rgba(200, 241, 221, 0.8);
+    --dark-orange: rgba(250, 137, 61, 0.8);
+    --yellow: rgba(236, 193, 55, 1);
 }

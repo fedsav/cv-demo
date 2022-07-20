@@ -16,11 +16,6 @@
     align-items: center;
 }
 
-.about-me__title {
-    margin: auto 0;
-    align-self: flex-start;
-}
-
 .about-me__bio {
     display: flex;
     flex-direction: column;
@@ -32,11 +27,12 @@
 /* инфо */
 
 .about-me__info {
-    padding: 80px 80px 80px 0;
+    padding: 80px ;
     grid-area: info;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 /* кнопка */
@@ -44,6 +40,13 @@
 .about-me__button {
     grid-area: button;
     align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.about-me__btn {
+    background: var(--yellow);
+    border-radius: 20px;
+    border: solid black 2px;
 }
 
 /* аватар */
@@ -78,7 +81,15 @@
     
     .about-me__header {
         display: flex;
-        
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+    }
+
+    .about-me__info {
+        padding: 15px;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .about-me__bio {
